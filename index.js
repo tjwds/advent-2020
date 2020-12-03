@@ -1,8 +1,8 @@
 const {
     partOne,
     partTwo,
-} = require('./days/2.js');
-const input = require('./input/2.js');
+} = require('./days/3.js');
+const input = require('./input/3.js');
 
 console.log(
     partOne(input),
