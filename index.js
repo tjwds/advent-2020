@@ -6,5 +6,5 @@ const input = require('./input/7.js');
 
 console.log(
     partOne(input),
-    partTwo(input),
-)
+    partTwo(input)
+);

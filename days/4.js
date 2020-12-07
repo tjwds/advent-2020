@@ -29,9 +29,9 @@ const partOne = input => {
         )) {
             valid++;
         }
-    })
-    console.log(valid)
-}
+    });
+    console.log(valid);
+};
 
 const partTwo = input => {
     let valid = 0;
@@ -39,8 +39,8 @@ const partTwo = input => {
     // generate required passport regexen
     requiredPassportFields.forEach(req => {
         const regexReq = new RegExp(req[0] + ":([a-z0-9#]*)", 'mg');
-        req.push(regexReq)
-    })
+        req.push(regexReq);
+    });
     passports.forEach(passport => {
         if (requiredPassportFields.every(req => {
             const match = passport.match(req[2]);
@@ -54,9 +54,9 @@ const partTwo = input => {
         })) {
             valid++;
         }
-    })
-    console.log(valid)
-}
+    });
+    console.log(valid);
+};
 
 module.exports = {
     partOne,
