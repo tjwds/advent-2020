@@ -1,10 +1,10 @@
 const {
-    partOne,
+    // partOne,
     partTwo,
-} = require('./days/10.js');
-const input = require('./input/10.js');
+} = require('./days/11.js');
+const input = require('./input/11.js');
 
 console.log(
-    partOne(input),
-    partTwo(input)
+    // partOne(input, 4, false),
+    partTwo(input, 5, true)
 );
