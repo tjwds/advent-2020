@@ -1,10 +1,14 @@
 const {
     partOne,
     partTwo,
-} = require('./days/13.js');
-// const input = require('./input/12.js');
+} = require('./days/14.js');
+const input = require('./input/14.js');
+// const input = `mask = 000000000000000000000000000000X1001X
+// mem[42] = 100
+// mask = 00000000000000000000000000000000X0XX
+// mem[26] = 1`;
 
 console.log(
-    partOne(),
-    partTwo()
+    partOne(input),
+    partTwo(input)
 );
