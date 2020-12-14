@@ -4,6 +4,9 @@
         "node": true,
         "es6": true
     },
+    "globals": {
+        "BigInt":true
+    },
     "rules": {
         "semi": [1, "always"] // require or disallow use of semicolons instead of ASI
     },
