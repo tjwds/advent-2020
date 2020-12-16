@@ -1,12 +1,22 @@
 const {
     partOne,
     partTwo,
-} = require('./days/15.js');
-const input = require('./input/15.js');
+} = require('./days/16.js');
+const {
+    input,
+    validFields,
+    myTicket
+} = require('./input/16.js');
 
-// const input = "3,1,2";
+// const validFields = `class: 0-1 or 4-19
+// row: 0-5 or 8-19
+// seat: 0-13 or 16-19`;
+// const input = `3,9,18
+// 15,1,5
+// 5,14,9
+// 3,9,20`;
 
 console.log(
-    partOne(input),
-    partTwo(input)
+    partOne(validFields, input),
+    partTwo(validFields, input, myTicket)
 );
