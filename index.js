@@ -1,12 +1,10 @@
 const {
     partOne,
     partTwo,
-} = require('./days/17.js');
-const input = require('./input/17.js');
+} = require('./days/18.js');
+const input = require('./input/18.js');
 
-// const input = `.#.
-// ..#
-// ###`;
+// const input = `((2 + 4 * 9) * (6 + 9 * 8 + 6) + 6) + 2 + 4 * 2`;
 
 console.log(
     partOne(input),
